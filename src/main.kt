@@ -23,7 +23,9 @@ fun main(args: Array<String>) = mainBlocking()  { //chose not to do command line
         }
         for(url in urls){ //fill channel queue
            browserChannel.send(url)
-           println(url)
+           if(WebSearchConfig.verbose){
+                println(url)
+           }
         }
 
         /*
