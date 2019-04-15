@@ -3,11 +3,17 @@
 Given a list of URLs, this program fetches each one and searches the body for a search term.
 The results are written out into a file.
 
+
 #### Notes
 
+- This was my first time using Kotlin. As a language I found it fairly fun to pick up, I went through some of the Koans on their website before diving in.
+- One issue I ran into involved channels and co-routines. I ran into an issue where the channel "browserChannel" was being consumed and the program
+was ending while the coroutines were still waiting on URL requests to return.
+  
+  The way I ended up handling this was by introducing another channel "quitChannel" that kept track of which requests were processed and then closed both channels once everything finished.
 - There is a config object, see below.
 - Some of the urls take a while to run, usually due to a gateway or ssl timeout.
-I thought of implementing a loading timeout, but left it as is I feel its useful to see the actual timeout reason when the verbose flag is set.
+I thought of implementing an internal request timeout, but left it as is I feel its useful to see the actual timeout reason when the verbose flag is set.
  
  
 ### Install and Run
