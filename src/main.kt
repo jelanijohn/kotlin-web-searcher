@@ -42,17 +42,18 @@ fun main(args: Array<String>) = mainBlocking()  {
         }
 
 
-        //using the quitChannel to block until the other processes finish
+        //using the quitChannel to block until any hanging URL requests finish
         for(i in 1.. numProcessed){
             quitChannel.send(0) //fill the rest of the quitChannel with zeros and wait until we find one
             if(WebSearchConfig.verbose){
                 println(quitChannel)
             }
-            println(quitChannel)
+
             if(quitChannel.viewBuffer.element() == 0){
                 //close channels and exit
                 quitChannel.close()
                 browserChannel.close()
+                println("Finished processing URLs.")
                 break;
             }
         }

@@ -22,8 +22,7 @@ class Browser {
             val result = urlBody.contains(searchTerm, ignoreCase = true)
 
             CSV().writeRow("${url},${searchTerm},${result}")
-
-             quit.receive()
+            quit.receive()
         } catch (e: Exception) {
             if(WebSearchConfig.verbose){
                 println("Error Accessing URL - ${url}")
@@ -49,7 +48,6 @@ class Browser {
             if(WebSearchConfig.verbose){
                 println(browserChannel)
             }
-
 
         }
     }
