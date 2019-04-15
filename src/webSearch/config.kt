@@ -1,7 +1,11 @@
 package webSearch;
 
-object WebSearchConfig { //one way of doing a singleton, but in a larger app would want to load and parse a json file
-    val maxProcesses: Int = 20 //todo - think about - these variables might be better capitalized as an indicator
+/**
+* Singleton config object used throughout this package
+*
+*/
+object WebSearchConfig {
+    val maxProcesses: Int = 20
     val searchTerm: String  = "html"
     val urlPrefix: String = "https://www."
     val resultHeader: String = "URL,Search Term,Result"

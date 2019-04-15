@@ -6,7 +6,18 @@ import java.io.IOException
 import java.io.FileWriter
 
 
+/**
+* CSV class
+*
+* This class is used for reading and writing to a csv file
+*
+*/
 class CSV {
+    /**
+    * reads a column from [searchFile] at column index [urlIndex]
+    *
+    * @returns ArrayList<String> of column results
+    */
     public fun readColumn(searchFile: String = WebSearchConfig.searchFile, urlIndex:Int = WebSearchConfig.searchFileUrlIndex): ArrayList<String>{
         var fileReader: BufferedReader? = null
         val urls = ArrayList<String>()
@@ -45,6 +56,10 @@ class CSV {
         }
     }
 
+    /**
+    * Writes a row [csvRow] tp [outputFile]
+    *
+    */
     public fun writeRow(csvRow: String, outputFile: String = WebSearchConfig.outputFile): Unit {
         var fileWriter: FileWriter? = null
         try {
@@ -65,8 +80,11 @@ class CSV {
         }
     }
 
-    //create or truncate file
-    public fun newFile(outputFile: String = WebSearchConfig.outputFile): Unit {
+    /**
+    * Truncates or creates a new file [outputFile]
+    *
+    */
+     public fun newFile(outputFile: String = WebSearchConfig.outputFile): Unit {
         var fileWriter: FileWriter? = null
         try {
             fileWriter = FileWriter(outputFile)

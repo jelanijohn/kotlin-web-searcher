@@ -3,7 +3,15 @@ package main;
 import channel.*;
 import webSearch.*;
 
-fun main(args: Array<String>) = mainBlocking()  { //chose not to do command line arguments, options come from webSearch/config file
+/**
+* Main function
+*
+* This function reads urls from a csv file, sets up channels and kotlin co-routines to perform concurrent searches for a search term.
+* All configurable options come from webSearch/config file.
+*
+* @param args command line arguments, currently not used
+*/
+fun main(args: Array<String>) = mainBlocking()  {
 
     val csv = CSV()
     val browser = Browser()
