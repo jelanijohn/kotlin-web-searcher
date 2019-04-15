@@ -256,6 +256,8 @@ class Channel<T>(val capacity: Int = 1) : SendChannel<T>, ReceiveChannel<T> {
         return sb.toString()
     }
 
+    public val viewBuffer: ArrayDeque<T> get() = buffer
+
     override fun toString(): String = locked {
         "Channel #$number closed=$closed, buffer=$buffer, waiters=$waitersString"
     }

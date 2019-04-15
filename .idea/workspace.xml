@@ -4,7 +4,10 @@
     <list default="true" id="99e638a2-6dec-4598-b053-a896e0a5a076" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kotlin-coroutine/channel/channel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/kotlin-coroutine/channel/channel.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webSearch/browser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/webSearch/browser.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/websiteSearcher.jar" beforeDir="false" afterPath="$PROJECT_DIR$/websiteSearcher.jar" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,26 +21,17 @@
       <file leaf-file-name="main.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="12" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+            <state relative-caret-position="360">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="channel.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/kotlin-coroutine/channel/channel.kt">
+      <file leaf-file-name="urls.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/urls.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1680">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/webSearch/config.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+            <state relative-caret-position="360">
+              <caret line="39" column="38" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -45,8 +39,8 @@
       <file leaf-file-name="file_io.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/webSearch/file_io.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="460">
+              <caret line="53" column="14" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -54,10 +48,24 @@
       <file leaf-file-name="browser.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/webSearch/browser.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="40" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="40" />
+            <state relative-caret-position="585">
+              <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="channel.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/kotlin-coroutine/channel/channel.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="237" lean-forward="true" selection-start-line="237" selection-end-line="237" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="go.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/kotlin-coroutine/channel/go.kt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="Readme.md" pinned="false" current-in-tab="false">
@@ -75,8 +83,8 @@
       <file leaf-file-name="results.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/results.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-6320">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="615">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
             </state>
           </provider>
         </entry>
@@ -88,7 +96,6 @@
       <find>Channel&lt;</find>
       <find>kotlin.coroutines</find>
       <find>block</find>
-      <find>Channel</find>
       <find>resumeReceive</find>
       <find>onSend</find>
       <find>SelectorBuilder</find>
@@ -103,7 +110,9 @@
       <find>launch</find>
       <find>:</find>
       <find>20&quot;https://www.&quot;</find>
+      <find>threadpool</find>
       <find>false</find>
+      <find>Channel</find>
     </findStrings>
     <replaceStrings>
       <replace>|</replace>
@@ -131,9 +140,10 @@
         <option value="$PROJECT_DIR$/src/hello.kt" />
         <option value="$PROJECT_DIR$/src/webSearch/config.kt" />
         <option value="$PROJECT_DIR$/src/webSearch/file_io.kt" />
-        <option value="$PROJECT_DIR$/src/webSearch/browser.kt" />
         <option value="$PROJECT_DIR$/Readme.md" />
+        <option value="$PROJECT_DIR$/src/kotlin-coroutine/channel/channel.kt" />
         <option value="$PROJECT_DIR$/src/main.kt" />
+        <option value="$PROJECT_DIR$/src/webSearch/browser.kt" />
       </list>
     </option>
   </component>
@@ -167,7 +177,38 @@
             <path>
               <item name="kotest" type="b2602c69:ProjectViewProjectNode" />
               <item name="kotest" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="data" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="kotest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotest" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="kotest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotest" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="kotlin-coroutine" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="kotest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotest" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="kotlin-coroutine" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="channel" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="kotest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotest" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="kotlin-coroutine" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="context" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="kotest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotest" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="webSearch" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -217,18 +258,18 @@
       <updated>1555178139821</updated>
       <workItem from="1555178141469" duration="210000" />
       <workItem from="1555178387759" duration="318000" />
-      <workItem from="1555178739483" duration="38030000" />
+      <workItem from="1555178739483" duration="45968000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38558000" />
+    <option name="totallyTimeSpent" value="46496000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1056" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="right" id="AwesomeKotlin" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
@@ -268,7 +309,7 @@
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -281,13 +322,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/urls.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7500">
-          <caret line="500" column="42" selection-start-line="500" selection-start-column="42" selection-end-line="500" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/customer.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -299,9 +333,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kotlin-coroutines-examples/examples/channel/channel-example-multiplexing.kt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/kotlin-coroutine/channel/go.kt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/kotlin-coroutines-examples/examples/channel/go.kt">
@@ -323,6 +354,19 @@
     <entry file="file://$PROJECT_DIR$/data/time.kt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/kotlin-coroutine/run/launch.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kotlin-coroutine/run/runBlocking.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/webSearch/config.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -333,45 +377,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/results.txt">
+    <entry file="file://$PROJECT_DIR$/src/kotlin-coroutine/channel/go.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/urls.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6320">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="360">
+          <caret line="39" column="38" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/webSearch/file_io.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="460">
+          <caret line="53" column="14" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/webSearch/config.kt">
+    <entry file="file://$PROJECT_DIR$/results.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/kotlin-coroutine/channel/channel.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1680">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="615">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/webSearch/browser.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="40" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="40" />
+        <state relative-caret-position="585">
+          <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kotlin-coroutine/channel/channel.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="237" lean-forward="true" selection-start-line="237" selection-end-line="237" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="12" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+        <state relative-caret-position="360">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>

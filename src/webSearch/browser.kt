@@ -6,7 +6,7 @@ import channel.*;
 
 
 class Browser {
-    private fun search(searchTerm: String, url: String): Unit {
+    private suspend fun search(searchTerm: String, url: String, quit: Channel<Int>): Unit {
         try {
             if(WebSearchConfig.verbose){
                 println("Searching: ${url} for ${searchTerm}")
@@ -15,6 +15,8 @@ class Browser {
             val result = urlBody.contains(searchTerm, ignoreCase = true)
 
             CSV().writeRow("${url},${searchTerm},${result}")
+
+             quit.receive()
         } catch (e: Exception) {
             if(WebSearchConfig.verbose){
                 println("Error Accessing URL - ${url}")
@@ -22,21 +24,19 @@ class Browser {
             }
 
             CSV().writeRow("${url},${searchTerm},error")
+            quit.receive()
         }
     }
 
-    suspend fun process(searchTerm: String, browserChannel: Channel<String>, quit: Channel<Int>? = null ): Unit  {
+    suspend fun process(searchTerm: String, browserChannel: Channel<String>, quit: Channel<Int>): Unit  {
         for(url in browserChannel){
+            search(searchTerm, url, quit)
+
             if(WebSearchConfig.verbose){
                 println(browserChannel)
             }
-            search(searchTerm, url)
-            //quit?.send(1) //fixme - this shouldnt be nullable, fix if this experiement works
-            //println("---")
+
 
         }
-
-        //println("closing")
-        //browserChannel.close()
     }
 }
